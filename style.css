@@ -38,13 +38,14 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+    background: linear-gradient(to bottom, #58BA67, #ffffff); /* 초록색에서 흰색으로 그라데이션 */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     animation: backgroundShift 10s ease-in-out infinite;
 }
+
 @keyframes backgroundShift {
     0%, 100% {
         background-position: 0 0;
@@ -276,7 +277,7 @@ body, html {
 .quiz-header {
     display: flex;
     font-size: 32px;
-    background: linear-gradient(to right, #667eea, #764ba2);
+    background: linear-gradient(to bottom, #667eea, #764ba2);
     color: white;
     padding: 12px 24px;
     border-radius: 12px;
